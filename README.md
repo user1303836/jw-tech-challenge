@@ -30,6 +30,8 @@ Use the following command to select a block range and populate the SQLite db (`-
 python crawler.py --url=https://your.ethereum.node --start_block=18908800 --end_block=18909050 --get_largest_volume_block
 ```
 
+![Example](example.png)
+
 ## Notes
 
 - For the purposes of this exercise, every time a `--start_block` and `--end_block` is specified, the script will drop all rows from the SQLite db, and repopulate the db with the blocks in the specified range.
