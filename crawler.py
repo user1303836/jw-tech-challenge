@@ -2,7 +2,6 @@
 
 Usage:
     crawler.py [options] --start_block=<start_block> --end_block=<end_block>
-    crawler.py [options] --get_largest_volume_block
     crawler.py [options] --start_block=<start_block> --end_block=<end_block> --get_largest_volume_block
 
 Options:
